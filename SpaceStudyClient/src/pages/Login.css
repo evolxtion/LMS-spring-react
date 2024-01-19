@@ -1,0 +1,16 @@
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  @media (max-width: 500px) {
+    .rounded-tr-lg-0 {
+      border-top-right-radius: 0.5rem;
+      border-bottom-left-radius: 0rem;
+    }
+}
+
+/* html, body, #root { height: 100%; } */
+html, body, #root {
+  background-color: #d9e1eb;
+}
